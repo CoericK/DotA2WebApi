@@ -26,7 +26,6 @@ WebApi.getTeamInfo(5, function(e, info){
 */
 
 
-
 /*
 // Get Team Logo
 // Be carefull with big numbers
@@ -35,6 +34,27 @@ WebApi.GetUGCFile('597017828284742302', function(e, data){
 		console.log(e);
 	}else{
 		console.log(data);
+	}
+});
+*/
+/*
+// Download Schema
+WebApi.DownloadSchema('es', 'schema.js', function(e){
+	if(e){
+		console.log(e);
+	}else{
+		console.log('File: Downloaded.');
+	}
+});
+
+*/
+/*
+// Download Items Game
+WebApi.DownloadItemsGame('items_game.txt', function(e){
+	if (e) {
+		console.log(e);
+	}else{
+		console.log('Items Game Downloaded.');
 	}
 });
 */
